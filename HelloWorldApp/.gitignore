@@ -1,0 +1,76 @@
+# Visual Studio Code related files
+.vscode/
+
+# Compiled output
+bin/
+obj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDE settings
+.idea/
+
+# NuGet packages
+*.nuget.cache
+*.dotnet-sharpie
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+artifacts.xml
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Output of 'dotnet publish'
+publish/
+
+# Output of 'dotnet build'
+*.sw?
+
+# Visual Studio cache files
+.vscode/*
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/extensions.json
+
+# Rider cache and settings
+.idea/*
+.idea/*.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/*.workspace
+.idea/*.tasks
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
