@@ -21,8 +21,8 @@ namespace HelloWorldApp.Controllers
             // Measure the request duration
             using (HelloHistogram.NewTimer())
             {
-                string helloMessage = Environment.GetEnvironmentVariable("HELLO_MESSAGE") ?? "Alvaro";
-                return Ok($"Welcome to our .NET application, {helloMessage}!");
+                string greetingsName = Environment.GetEnvironmentVariable("GREETINGS_NAME") ?? "Alvaro";
+                return Ok($"Welcome to our .NET application, {greetingsName}!");
             }
         }
 

@@ -26,10 +26,10 @@ app.MapControllers();
 
 app.UseHttpMetrics();
 
-app.MapHealthChecks("/healthz/live");
+app.MapHealthChecks("/health/live");
 
-app.MapHealthChecks("/healthz/ready");
+app.MapHealthChecks("/health/ready");
 
 app.MapMetrics();
 
-app.Run("http://localhost:8080");
+app.Run("http://*:8080");
